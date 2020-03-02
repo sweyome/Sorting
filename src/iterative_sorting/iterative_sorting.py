@@ -34,7 +34,8 @@ def bubble_sort(arr):
         swap_status = False
         # for loop to compare each number
         for i in range(0, len(arr)-1):
-
+#! comparing the values of each other 
+#! bubble the largest value 
             if arr[i] > arr[i+1]:
                 left_value = arr[i]
                 right_value = arr[i+1]
